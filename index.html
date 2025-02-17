@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1 box" onclick="changeColor('red')">Red</div>
+        <div class="box2 box" onclick="changeColor('green')">Green</div>
+        <div class="box3 box" onclick="changeColor('white')">White</div>
+        <div class="box4 box" onclick="changeColor('black')">Black</div>
+        <div class="box5 box" onclick="changeColor('Orange')">Orange</div>
+    </div>
+
+    <script>
+
+        function changeColor(color) {
+            document.body.style.backgroundColor = color
+        }
+    </script>
+
+</body>
+
+</html>

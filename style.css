@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.box {
+  background-color: rgb(124, 124, 209);
+  padding: 20px;
+  color: white;
+  margin: 5px;
+  display: inline;
+  position: absolute;
+  border-radius: 30pc;
+}
+
+.box1 {
+  top: 20px;
+  left: 20px;
+}
+.box2 {
+  top: 30px;
+  right: 30px;
+}
+.box3 {
+  bottom: 30px;
+  left: 30px;
+}
+.box4 {
+  bottom: 30px;
+  right: 40px;
+}
+.box:hover {
+  transform: scale(1.1);
+  transition: 3s;
+}
